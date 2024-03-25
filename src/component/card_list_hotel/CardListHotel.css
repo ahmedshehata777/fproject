@@ -1,0 +1,83 @@
+.hotel-card {
+    border-radius: 10px;
+    width: 70% !important; 
+    box-shadow: 0px 4px 8px 0px #ba8a8a;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.title,.details,.address,.suite,.price,.taxes{
+    text-align: left;
+
+
+}
+
+
+.set-p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rating {
+    background-color: #3D5AFE;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.grade {
+    font-size: 18px;
+}
+
+.line {
+    height: 1px;
+    background-color: #E0E0E0;
+}
+.btn-regis{
+    position: relative;
+    right: -110px;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.btn-icon{
+    position: absolute;
+    transform: translate(210px,30px);
+    background: #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    transition: 0.3s;
+
+}
+
+.btn-icon:hover{
+    height: 45px;
+    width: 45px;
+}
+.red-heart {
+    color: red; 
+}
+
+@media screen and (max-width: 575px) {
+    .image {
+        height: auto;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+}

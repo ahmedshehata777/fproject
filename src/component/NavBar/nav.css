@@ -1,0 +1,113 @@
+/* .navbar-text {
+    color: rgba(248, 24, 8, 0.863);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar-text:hover,
+.navbar-text active {
+    color: rgb(238, 238, 48);
+}
+
+
+.transparent-input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+} */
+
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    } */
+     
+    .remove{
+    text-decoration: none !important;
+    color: black;
+}
+
+.remove:hover{
+    color: rgb(255, 87, 87) !important;
+}
+    .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+     
+    
+    .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff385c;
+    text-decoration: none;
+    }
+     
+    
+    .navbar-nav {
+    display: flex;
+    align-items: center;
+    }
+     
+    
+    .nav-item {
+    margin-right: 15px;
+    }
+     
+    
+    .nav-link {
+    text-decoration: none;
+    color: #484848;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    }
+     
+    
+    .nav-link:hover {
+    color: #ff385c;
+    }
+     
+    
+    .form-control {
+    margin-right: 10px;
+    }
+     
+    
+    .btn-outline-success {
+    margin-right: 10px;
+    }
+     
+    
+    .d-flex {
+    display: flex;
+    }
+     
+    
+    .m-2 {
+    margin-right: 20px;
+    }
+     
+    
+    /* Custom Styling for Active Links */
+    .nav-link.active {
+    color: #ff385c !important;
+    }
+     
+    
+    /* Additional Styles for Specific Elements */
+    /* Adjust as needed */
+    .custom-search-btn {
+    color: #008489; /* Text color */
+    background-color: #ffffff; /* Background color */
+    border: 1px solid #008489; /* Border color */
+    transition: all 0.3s ease; /* Transition effect */
+    }
+     
+    
+    .custom-search-btn:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #ff385c; /* Background color on hover */
+    }

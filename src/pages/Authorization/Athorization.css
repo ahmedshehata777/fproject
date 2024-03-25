@@ -1,0 +1,10 @@
+
+
+  #reg {
+    font-family: 'Courgette', cursive;
+  }
+  
+  .submitRegister {
+    cursor: pointer;
+    background-color: #FF5A5F;
+  }
